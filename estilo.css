@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+/*header IMPORTANTE*/
+header{
+    display: flex;
+    justify-content: space-between;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+    background-color: rgb(0, 0, 44);
+    align-items: center;
+    width: 100vw;
+}
+
+
+/*imagen de portada*/
+.PortadaDePagina{
+    width: 5em;
+    height: 5em;
+}
+/* Div del titulo y imagen de la portada de la pagina */
+.DivTituloPrincipal{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 5em;
+    width: 25rem;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(13, 13, 228);
+    transition: 0.7s;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding-right: 27px;
+    font-size: 1.5rem;
+    
+}
+nav a:hover{
+    color: blue;
+}
+h1{
+    align-items: center;
+}
+.derechaNav{
+    display: flex;
+}
+/* CARD DE LOS PERFUMES */
+section{
+    padding: 20px;
+    background-color: black;
+}
+#sectionCards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+/* cartas de los productos (perfumes) */
+.card_perfume{
+    height: 6rem;
+    width: 15rem;
+    background-color: green;
+    height: 20rem;
+    border-radius: 20px;
+    border: 2px solid rgb(84, 136, 169);
+    overflow: hidden;
+    margin: auto;
+}
+.imagen_card{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+.Titulo_perfume{
+    text-align: center;
+}

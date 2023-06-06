@@ -1,4 +1,4 @@
-
+/*
 
 class producto {
    constructor (cillindrada, marca, nombre, precio){
@@ -98,5 +98,5 @@ if(cascoEleccion == 1){
 
 
 
-
+*/
 
