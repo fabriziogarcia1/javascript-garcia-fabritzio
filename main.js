@@ -112,21 +112,29 @@ let card = document.createElement("div");
 card.classList.add ("div");
 card.innerHTML = `<div class="card_perfume">
 <div>
-    <img src="./Imagenes/versace_eros2.jpg" class="imagen_card" alt="">
+    <img src="./Imagenes/bad_boy_portada.jpg" class="imagen_card" alt="">
 </div>
 <div>
-    <p class="Titulo_perfume">titulo de perfume</p>
+    <p class="Titulo_perfume">card Hecho En Javascript</p>
     <button>Comprar</button>
 </div>
 </div> `;
 
 sectionCards.append(card);
-/*<div class="card_perfume">
-        <div>
-            <img src="./Imagenes/versace_eros2.jpg" class="imagen_card" alt="">
-        </div>
-        <div>
-            <p class="Titulo_perfume">titulo de perfume</p>
-            <button>Comprar</button>
-        </div>
-    </div> */
+
+// Introducimos Eventos en HTML
+let contador = 0
+const parrafo = document.querySelector("cero");
+const boton = document.querySelector("buton");
+boton.addEventListener("click", () =>{
+   console.log("click");
+   contador++
+   parrafo.textContent = contador
+
+
+});
+ document.getElementById("info").addEventListener("click",click,);
+
+ function click (){
+   alert(" hola este perfume tiene notas de vainilla ")
+ }
