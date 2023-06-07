@@ -89,14 +89,44 @@ if(cascoEleccion == 1){
 } else (cascoEleccion == 3);{
    alert("Eelegiste el casco" + cascoMAC)
 
-}
-
- 
 
 
+   document.createElement("div") 
+
+div.classList("nombre de la clase") 
+
+div.innerHTML = `
+
+ Estructura HTML
+
+`
+
+ContenedorADondeLoQuierasPoner.append(div)
+}*/
+
+//Trabajo 3ra entre DOM, Eventos y JSON
 
 
+// Manejo de DOM cree una card con los mismos estilos desde javascript (createElement, innerHTML y append)
+let card = document.createElement("div");
+card.classList.add ("div");
+card.innerHTML = `<div class="card_perfume">
+<div>
+    <img src="./Imagenes/versace_eros2.jpg" class="imagen_card" alt="">
+</div>
+<div>
+    <p class="Titulo_perfume">titulo de perfume</p>
+    <button>Comprar</button>
+</div>
+</div> `;
 
-
-*/
-
+sectionCards.append(card);
+/*<div class="card_perfume">
+        <div>
+            <img src="./Imagenes/versace_eros2.jpg" class="imagen_card" alt="">
+        </div>
+        <div>
+            <p class="Titulo_perfume">titulo de perfume</p>
+            <button>Comprar</button>
+        </div>
+    </div> */
