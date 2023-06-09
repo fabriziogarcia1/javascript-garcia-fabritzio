@@ -123,6 +123,7 @@ card.innerHTML = `<div class="card_perfume">
 sectionCards.append(card);
 
 // Introducimos Eventos en HTML
+/*
 let contador = 0
 const parrafo = document.querySelector("cero");
 const boton = document.querySelector("buton");
@@ -138,3 +139,17 @@ boton.addEventListener("click", () =>{
  function click (){
    alert(" hola este perfume tiene notas de vainilla ")
  }
+ function clicktitulo (){
+   alert (" Este perfume");
+ }
+ const botoninfo = getElementById("info");
+ botoninfo.addEventListener("click",() click); */
+
+
+
+const alerta = document.querySelector("#info");
+alerta.addEventListener("click", mostrarAlerta);
+
+function mostrarAlerta() {
+    alert("Este perfume trae notas de vainilla, cuero y menta para ocaciones nocturnas!");
+}
