@@ -78,7 +78,7 @@ a:hover{
 /* CARD DE LOS PERFUMES */
 main{
     padding: 20px;
-    background-color: rgb(1, 39, 56);
+   
     display: grid;
     grid-template-columns: auto auto auto auto ;
     width: 100%;
@@ -122,4 +122,7 @@ main{
 p{
     color: white;
     font-size: 20px;
+}
+.darkmode {
+    background-color: white;
 }
