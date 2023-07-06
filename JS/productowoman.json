@@ -1,0 +1,67 @@
+[
+{
+    "id": "001",
+    "nombre": "God Girl EDP",
+     "img":"../Imagenes/img_01.jpg",
+     "Marca": "Carolina Herrera",
+     "precio": "55000",
+     "descripcion": "Notas de salida: Haba Tonka y Cocoa. Aroma: Oriental,Floral."
+   },
+   {
+    "id": "002",
+    "nombre": "Good Girl Gold",
+     "img":"../Imagenes/img_02.jpg",
+     "Marca": "Carolina Herrera",
+     "precio": "55000",
+     "descripcion": "Notas de vainilla y sandalo (Dulce)"
+   },
+   {
+    "id": "003",
+    "nombre": "Mugler Alien ",
+     "img": "../Imagenes/img_03.jpg",
+     "Marca": "Antonio Banderas",
+     "precio": "60000",
+     "descripcion": "Se recomienda para el invierno y noches interminables."
+   },
+   {
+    "id": "004",
+    "nombre": "kaiak oceano",
+     "img":"../Imagenes/oceano.jpg",
+     "Marca": "Natura",
+     "precio": "10000",
+     "descripcion": "toronja y algas marinas, especial para verano."
+   },
+   {
+    "id": "005",
+    "nombre": "Humor estelar",
+     "img":"../Imagenes/estelar.jpg",
+     "Marca": "Natura",
+     "precio": "7000",
+     "descripcion": "Piña y vainilla dulce."
+   },
+   {
+    "id": "006",
+    "nombre": "Kaiak vital",
+     "img":"../Imagenes/vital.jpg",
+     "Marca": "Natura",
+     "precio": "12000",
+     "descripcion": "Mandarina y naranja con un toque de Vainilla."
+   },
+   {
+    "id": "007",
+    "nombre": "Versace Eros Flame",
+     "img":"../Imagenes/flame.jpg",
+     "Marca": "Versace",
+     "precio": "55000",
+     "descripcion": "Mandarina y naranja con un toque de Vainilla."
+   },
+   {
+    "id": "008",
+    "nombre": "Dior Savage",
+     "img":"../Imagenes/dior.jpg",
+     "Marca": "Dior",
+     "precio": "80000",
+     "descripcion": "Potente aromatico ,ligeramente maduro."
+   }
+ 
+ ]
